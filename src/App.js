@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='body'>
+      <div className='container'>
+        <img src='https://picsum.photos/id/237/200/300' alt=''></img>
+        <div id='photos'>
+        <img src='https://picsum.photos/id/237/200/300' alt=''></img>
+        <img src='https://picsum.photos/seed/picsum/200/300' alt=''></img>
+        <img src='https://picsum.photos/200/300?grayscale' alt=''></img>
+        </div>
+      </div>
     </div>
   );
 }
